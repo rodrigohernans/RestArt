@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Monserrat, sans-serif;
+}
+
+body {
+  height: 100vw;
+  background-color: white;
+}
+
+/* 
+colores: 
+verde flour = #7FFF00
+coral= #FF7F50
+ligthcoral= #F08080
+greenyellow= #ADFF2F
+green = #008000
+lawgreen= #7CFC00
+*/
+
+.cabecera-mobile {
+  display: flex;
+  background-color: white;
+}
+
+.container-burger {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hamburger-menu {
+  display: block;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 2px;
+  border: none;
+  position: relative;
+}
+
+/* logo */
+
+.container-logo {
+  width: 96%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+  margin-left: 30px;
+}
+
+/* Burger Menu */
+
+.linea {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 2%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-bottom: 5px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  border-radius: 1px;
+}
+
+.linea-1 {
+  position: absolute;
+  top: 0;
+}
+
+.linea-2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+}
+
+.linea-3 {
+  position: absolute;
+  bottom: 0;
+}
+
+.hamburger-menu.is-active .linea-1 {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.hamburger-menu.is-active .linea-2 {
+  opacity: 0;
+}
+
+.hamburger-menu.is-active .linea-3 {
+  transform: translateY(-11px) rotate(-45deg);
+}
+
+/* menu y overlay */
+.menu-principal {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Oculto inicialmente */
+  width: 280px;
+  height: 100%;
+  background-color: #e3f2fd; /* Celeste un poco más intenso */
+  padding-top: 60px;
+  transition: left 0.3s ease-in-out;
+  z-index: 100; /* Asegura que esté por encima de otros elementos */
+}
+
+.menu-principal.is-open {
+  left: 0; /* Se muestra al agregar la clase */
+}
+
+.menu-principal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-principal li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-principal li a:hover {
+  background-color: #d0e7fa;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+  z-index: 1;
+}
+
+.overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
+}
+
+/* nav ul y lista */
+
+main {
+  background-color: white;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+}
+
+.nav {
+  display: none;
+  justify-content: space-between;
+  padding: 0.2rem;
+  align-items: center;
+  /* background-color: #f08080; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline white;
+}
+
+/* hero */
+
+.hero {
+  height: 60vh;
+}
+
+.img-hero {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  margin-top: 1rem;
+}
+
+.container-explorar {
+  display: block;
+  height: 400px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.explorar {
+  width: 80%;
+  padding: 0.8rem;
+  margin: 2rem;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  padding: 1rem;
+  opacity: 0.9;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 2%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.explorar > p {
+  color: white;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.explorar:hover {
+  transform: scale(1.1);
+}
+
+/* .titulo {
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  background-color: white;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: calc(500px - 320px + 0.5rem);
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  z-index: 10;
+  padding-bottom: 1.5rem;
+  width: 100%;
+} */
+
+.precio-original {
+  text-decoration: line-through;
+  text-align: center;
+  margin: 10px;
+  color:#aca4a4;
+}
+
+.precio-descuento{
+  text-align: center;
+  background-color: rgba(0, 212, 255, 1);
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: x-large;
+}
+.talles{
+  text-align: center;
+  margin: 10px;
+}
+
+/* --- ESTILOS CLAVE PARA SCROLL SNAP --- */
+
+.card-images-scroll {
+  width: 100%;
+  height: 350px; 
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; /* Para un mejor scroll en dispositivos iOS */
+}
+
+.img-product-scroll-item {
+  flex-shrink: 0;
+  width: 100%; 
+  height: 100%;
+  object-fit: cover; 
+  scroll-snap-align: start; /* Las imágenes se alinearán al inicio del contenedor */
+}
+
+.card {
+  overflow: hidden; /* Importante para que las imágenes no se salgan del borde */
+  width: 320px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añadimos transición para un efecto hover */
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+#container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+
+@media (min-width: 850px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-hero {
+    width: 40%;
+    height: 80vh;
+  }
+
+  .explorar {
+    width: 40%;
+  }
+}

@@ -1,0 +1,344 @@
+[
+  {
+    "id": 1,
+    "nombre": "Nike genial ID",
+    "marca": "Nike",
+    "precio_original": 85999,
+    "precio_descuento": 67999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla1_1.jpg",
+      "img/zapatilla1_2.jpg",
+      "img/zapatilla1_3.jpg",
+      "img/zapatilla1_4.jpg"
+    ],
+    "tallas_disponibles": [40, 41, 42, 43, 44]
+  },
+  {
+    "id": 2,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 70999,
+    "precio_descuento": 65999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla2_1.jpg",
+      "img/zapatilla2_2.jpg",
+      "img/zapatilla2_3.jpg",
+      "img/zapatilla2_4.jpg"
+    ],
+    "tallas_disponibles": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+  },
+  {
+    "id": 3,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 85999,
+    "precio_descuento": 67999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla3_1.jpg",
+      "img/zapatilla3_2.jpg",
+      "img/zapatilla3_3.jpg",
+      "img/zapatilla3_4.jpg"
+    ],
+    "tallas_disponibles": [35, 37, 38, 39, 40]
+  },
+  {
+    "id": 4,
+    "nombre": "",
+    "marca": "Adidas",
+    "precio_original": 86999,
+    "precio_descuento": 67999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla4_1.jpg",
+      "img/zapatilla4_2.jpg",
+      "img/zapatilla4_3.jpg",
+      "img/zapatilla4_4.jpg"
+    ],
+    "tallas_disponibles": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+  },
+  {
+    "id": 5,
+    "nombre": "",
+    "marca": "Adidas",
+    "precio_original": 80999,
+    "precio_descuento": 67999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla5_1.jpg",
+      "img/zapatilla5_2.jpg",
+      "img/zapatilla5_3.jpg"
+    ],
+    "tallas_disponibles": [34, 35, 36, 37, 38]
+  },
+  {
+    "id": 6,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 80999,
+    "precio_descuento": 67999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla6_1.jpg",
+      "img/zapatilla6_2.jpg",
+      "img/zapatilla6_3.jpg",
+      "img/zapatilla6_4.jpg"
+    ],
+    "tallas_disponibles": [39, 40, 41, 42, 43]
+  },
+  {
+    "id": 7,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 78999,
+    "precio_descuento": 65999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla7_1.jpg",
+      "img/zapatilla7_2.jpg",
+      "img/zapatilla7_3.jpg",
+      "img/zapatilla7_4.jpg"
+    ],
+    "tallas_disponibles": [35, 36, 37, 38, 39, 40, 41, 42, 44]
+  },
+  {
+    "id": 8,
+    "nombre": "",
+    "marca": "",
+    "precio_original": 82999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla8_1.jpg",
+      "img/zapatilla8_2.jpg",
+      "img/zapatilla8_3.jpg",
+      "img/zapatilla8_4.jpg"
+    ],
+    "tallas_disponibles": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+  },
+  {
+    "id": 9,
+    "nombre": "",
+    "marca": "Adidas",
+    "precio_original": 88999,
+    "precio_descuento": 66999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla9_1.jpg",
+      "img/zapatilla9_2.jpg",
+      "img/zapatilla9_3.jpg"
+    ],
+    "tallas_disponibles": [35, 36, 37, 38, 39]
+  },
+  {
+    "id": 10,
+    "nombre": "",
+    "marca": "Adidas",
+    "precio_original": 88999,
+    "precio_descuento": 67999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla10_1.jpg",
+      "img/zapatilla10_2.jpg",
+      "img/zapatilla10_3.jpg",
+      "img/zapatilla10_4.jpg"
+    ],
+    "tallas_disponibles": [36, 37, 38, 39, 40, 41, 42, 43, 44]
+  },
+  {
+    "id": 11,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 84999,
+    "precio_descuento": 65999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla11_1.jpg",
+      "img/zapatilla11_2.jpg",
+      "img/zapatilla11_3.jpg"
+    ],
+    "tallas_disponibles": [41, 42, 43, 44]
+  },
+  {
+    "id": 12,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 83999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla12_1.jpg",
+      "img/zapatilla12_2.jpg",
+      "img/zapatilla12_3.jpg",
+      "img/zapatilla12_4.jpg"
+    ],
+    "tallas_disponibles": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+  },
+  {
+    "id": 13,
+    "nombre": "",
+    "marca": "",
+    "precio_original": 82999,
+    "precio_descuento": 66999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla13_1.jpg",
+      "img/zapatilla13_2.jpg",
+      "img/zapatilla13_3.jpg",
+      "img/zapatilla13_4.jpg"
+    ],
+    "tallas_disponibles": [40, 41, 42, 43, 44]
+  },
+  {
+    "id": 14,
+    "nombre": "",
+    "marca": "Adidas",
+    "precio_original": 80999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla14_1.jpg",
+      "img/zapatilla14_2.jpg",
+      "img/zapatilla14_3.jpg",
+      "img/zapatilla14_4.jpg"
+    ],
+    "tallas_disponibles": [34, 35, 36, 37, 38, 39, 41, 42, 43, 44]
+  },
+  {
+    "id": 15,
+    "nombre": "Adidas",
+    "marca": "",
+    "precio_original": 80999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla15_1.jpg",
+      "img/zapatilla15_2.jpg",
+      "img/zapatilla15_3.jpg",
+      "img/zapatilla15_4.jpg"
+    ],
+    "tallas_disponibles": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+  },
+  {
+    "id": 16,
+    "nombre": "Adidas",
+    "marca": "",
+    "precio_original": 80999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla16_1.jpg",
+      "img/zapatilla16_2.jpg",
+      "img/zapatilla16_3.jpg",
+      "img/zapatilla16_4.jpg"
+    ],
+    "tallas_disponibles": [40, 41, 42, 43, 44]
+  },
+  {
+    "id": 17,
+    "nombre": "Nike",
+    "marca": "",
+    "precio_original": 85999,
+    "precio_descuento": 66999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla17_1.jpg",
+      "img/zapatilla17_2.jpg",
+      "img/zapatilla17_3.jpg",
+      "img/zapatilla17_4.jpg"
+    ],
+    "tallas_disponibles": [34, 35, 36, 37, 38, 39, 40]
+  },
+  {
+    "id": 18,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 88999,
+    "precio_descuento": 68999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla18_1.jpg",
+      "img/zapatilla18_2.jpg",
+      "img/zapatilla18_3.jpg",
+      "img/zapatilla18_4.jpg"
+    ],
+    "tallas_disponibles": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+  },
+  {
+    "id": 19,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 82999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla19_1.jpg",
+      "img/zapatilla19_2.jpg",
+      "img/zapatilla19_3.jpg",
+      "img/zapatilla19_4.jpg"
+    ],
+    "tallas_disponibles": [35, 37, 38, 39, 40, 41, 42, 43]
+  },
+  {
+    "id": 20,
+    "nombre": "",
+    "marca": "Adidas",
+    "precio_original": 84999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla20_1.jpg",
+      "img/zapatilla20_2.jpg",
+      "img/zapatilla20_3.jpg",
+      "img/zapatilla20_4.jpg"
+    ],
+    "tallas_disponibles": [43]
+  },
+  {
+    "id": 21,
+    "nombre": "",
+    "marca": "Adidas",
+    "precio_original": 80999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla21_1.jpg",
+      "img/zapatilla21_2.jpg",
+      "img/zapatilla21_3.jpg",
+      "img/zapatilla21_4.jpg"
+    ],
+    "tallas_disponibles": [38, 39, 40, 41, 42, 43]
+  },
+  {
+    "id": 22,
+    "nombre": "",
+    "marca": "Adidas",
+    "precio_original": 80999,
+    "precio_descuento": 64999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla22_1.jpg",
+      "img/zapatilla22_2.jpg",
+      "img/zapatilla22_3.jpg",
+      "img/zapatilla22_4.jpg"
+    ],
+    "tallas_disponibles": [38, 40, 41, 42, 43]
+  },
+  {
+    "id": 23,
+    "nombre": "",
+    "marca": "Nike",
+    "precio_original": 80999,
+    "precio_descuento": 62999,
+    "descripcion": "Experimenta la fusión perfecta de tecnología y estilo...",
+    "imagenes": [
+      "img/zapatilla23_1.jpg",
+      "img/zapatilla23_2.jpg",
+      "img/zapatilla23_3.jpg",
+      "img/zapatilla23_4.jpg"
+    ],
+    "tallas_disponibles": [39, 40, 41, 42]
+  }
+]
